@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="app.css">
+
+  <title>Museum of Witcher</title>
+</head>
+<body>
+
+  <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 ps-4 fixed-top">
+    <a href="#" class="navbar-brand"> WITCHER </a>
+    <button class="navbar-toggler " data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navLinks">
+      <ul class="navbar-nav">
+        <li class="navitem">
+          <a href="" class="nav-link">HOME</a>
+        </li>
+        <li class="navitem">
+          <a href="" class="nav-link">ABOUT</a>
+        </li>
+        <li class="navitem">
+          <a href="" class="nav-link">CLANS</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="container-fluid px-0">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div id="headingGroup" class="text-white text-center d-none d-lg-block mt-5">
+          <h1 class="">MUSEUM <span>/</span>OF<span>/</span> WITCHERS</h1>
+          <h1 class="">MUSEUM <span>/</span>OF<span>/</span> WITCHERS</h1>
+          <h1 class="">MUSEUM <span>/</span>OF<span>/</span> WITCHERS</h1>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" src="images/w2.jpg" alt="Responsive image">
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid px-0">
+    <div class="row alight-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="images/l1.jpg" alt="Responsive image" class="img-fluid">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+            <h2>WHAT IS A WITCHER</h2>
+            <img src="images/scratch.png" alt="Responsive image" class="d-none d-lg-inline">
+            <p class="lead">
+              A witcher (Polish: wiedźmin) also known as a wiccan, hexer, vedymin, or witchman (Elder Speech: vatt'ghern),
+              is someone who has undergone extensive training, ruthless mental and physicalconditioning, and mysterious
+              rituals (which take place at "witcher schools" such as Kaer Morhen)in preparation for becoming an itinerant
+              monster slayer for hire
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row alight-items-center content">
+      <div class="col-md-6 text-center">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+            <h2>MUSEUM OF WITCHERS</h2>
+            <img src="images/scratch.png" alt="Responsive image" class="d-none d-lg-inline">
+            <p class="lead">
+            "  Indeed, there is nothing more repulsive than these monsters that defy nature and are known by the name
+              of witcher, as they are the offspring of foul sorcery and witchcraft. They are unscrupulous scoundrels
+              without conscience and virtue, veritable creatures from hell capable only of taking lives... "
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+      <img src="images/kacper.jpg" alt="Responsive image" class="img-fluid">
+      </div>
+    </div>
+    <div class="row alight-items-center content">
+      <div class="col-md-6 order-2 order-md-1">
+        <img src="images/eskel.jpg" alt="Responsive image" class="img-fluid">
+      </div>
+      <div class="col-md-6 text-center order-1 order-md-2">
+        <div class="row justify-content-center">
+          <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+            <h2>HISTORY OF CREATION</h2>
+            <img src="images/scratch.png" alt="Responsive image" class="d-none d-lg-inline">
+            <p class="lead">
+              As humans settled in the northern part of the Continent, they had to deal with a vast array of monsters
+              that inhabited the land and which humans were poorly equipped to deal with. To fix this, the Northern
+              rulers tasked their mages to create magic-wielding warriors to deal with the monsters for them. As a
+              result, the mages carried out experiments at Rissberg and the first witcher was created.
+              Unfortunately, the witchers proved to have limited magical potential and were thus deemed failures
+              and banished from the castle
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+  background-color: #0f0f0f;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.blurb h2 {
+  color: #ffd300;
+  font-weight: 100;
+  font-size: 1.75rem;
+}
+
+.blurb p {
+  color: white;
+  font-weight: 100;
+  font-size: 1.123rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ffd300;
+  transition: 0.75s;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ffd300;
+  font-size: 2rem;
+}
+#headingGroup span {
+  color: #ffd300;
+}
+#headingGroup h1 {
+  font-size: 3rem;
+}
+
+.navbar.scrolled {
+  background-color: #0b0b0b;
+  transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
